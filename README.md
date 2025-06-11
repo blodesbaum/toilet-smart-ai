@@ -1,6 +1,26 @@
 # Toilet Smart AI
 
-This project is a small [Expo](https://expo.dev) application demonstrating a playful toilet paper dispenser controlled by a React Native app. The project was bootstrapped with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app) and uses [file‑based routing](https://docs.expo.dev/router/introduction).
+This project is a small application demonstrating a much-needed toilet paper dispenser controlled by a React Native app. The project was bootstrapped with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app) and uses [file‑based routing](https://docs.expo.dev/router/introduction). 
+
+The app offers:  
+1) SoundWaveVisualizer with animated concentric circles that pulse during recording
+2) RecordButton with spring animations and color changes
+3) Bluetooth connection to TP-Dispenser-Pro device
+4) Audio recording and AI analysis to determine optimal sheet count
+5) Bluetooth command transmission to physical dispenser
+6) Real-time motor control and dispensing progress
+7) Protocol interface showing available BLE commands
+8) Main app integrating all components with simulated audio amplitude, AI analysis workflow, and automatic dispensing.
+
+The app features a 2-screen view: 
+1) Initial recording screen (app/index.tsx) with sound wave visualizer and record button, plus navigation to control screen after recording
+2) Control screen (app/control.tsx) with AI analysis, Bluetooth management, dispenser controller, and toilet paper dispenser components
+
+Yes, this is real. Yes, I did spend *some* time working on it. 
+
+Last but not least, licensed under the "FLIP 0FF license". 
+
+![Poopy-meter AI Logo](./assets/logo.png)
 
 ## Prerequisites
 
