@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
+# Toilet Smart AI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a small [Expo](https://expo.dev) application demonstrating a playful toilet paper dispenser controlled by a React Native app. The project was bootstrapped with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app) and uses [file‑based routing](https://docs.expo.dev/router/introduction).
 
-## Get started
+## Prerequisites
 
-1. Install dependencies
+- **Node.js** 18 or newer
+- **npm** 9 or newer
 
-   ```bash
-   npm install
-   ```
+Install the project dependencies after cloning the repository:
 
-2. Start the app
+```bash
+npm install
+```
 
-   ```bash
-   npx expo start
-   ```
+## Running the application
 
-In the output, you'll find options to open the app in a
+Start Expo in development mode:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+```bash
+npx expo start
+```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The terminal output includes options to open the app in a development build, Android emulator, iOS simulator or Expo Go.
 
-## Get a fresh project
+### Useful scripts
 
-When you're ready, run:
+- `npm run android` – start the Android emulator
+- `npm run ios` – start the iOS simulator
+- `npm run web` – run the web build
+- `npm run lint` – run ESLint (requires the Expo CLI)
+- `npm run build` – export a static web build
+- `npm run reset-project` – move the current `app` directory to `app-example` and create a fresh `app`
+
+## Maintenance
+
+To check TypeScript types without emitting files:
+
+```bash
+npx tsc --noEmit
+```
+
+Audit dependencies for known vulnerabilities:
+
+```bash
+npm audit --omit=dev
+```
+
+Running `npm audit fix` will attempt to update packages to patched versions.
+
+## Resetting the starter code
+
+If you want to begin from a blank slate, run:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+The script moves the existing `app` directory to `app-example` and creates a fresh `app` folder containing a minimal screen.
 
-## Learn more
+## Learning resources
 
-To learn more about developing your project with Expo, look at the following resources:
+- [Expo documentation](https://docs.expo.dev/)
+- [Expo guides](https://docs.expo.dev/guides)
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Community
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo on GitHub](https://github.com/expo/expo)
+- [Discord community](https://chat.expo.dev)
