@@ -88,3 +88,11 @@ The script moves the existing `app` directory to `app-example` and creates a fre
 
 - [Expo on GitHub](https://github.com/expo/expo)
 - [Discord community](https://chat.expo.dev)
+
+## 🫵 You cloned this? Really?
+
+If you're going to clone this masterpiece of bathroom-based overengineering and not even leave a star,
+the least you can do is stare at yourself in the mirror and ask:
+“What kind of person am I?”
+
+Stars are free. Shame is forever.
