@@ -13,5 +13,8 @@ jobs:
         with:
           node-version: '20'
       - run: npm install
+        continue-on-error: false
       - run: npm run lint
+        continue-on-error: false
       - run: npx tsc --noEmit
+        continue-on-error: false
